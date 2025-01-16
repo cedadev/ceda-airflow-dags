@@ -39,7 +39,7 @@ default_args = {
 # Instantiate the DAG
 
 dag = DAG(
-    'dag_id',
+    'alan_test',
     default_args = default_args,
     description = 'Test dag for email notifications (and also to check DAGS sync with GitSync), no schedule, run manually',
     schedule_interval = None, #you can set any schedule interval you want.
